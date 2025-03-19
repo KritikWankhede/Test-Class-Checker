@@ -17,7 +17,7 @@ function generateCodeChallenge(codeVerifier) {
 }
 
 // Constants for client ID and redirect URI
-const CLIENT_ID = '3MVG9WVXk15qiz1JMmAGf9pWm1lyxU9qqQZA_TCIFgOJo54U04nH_rns62RRzRkAiKlkp5Z8xKUUwOwpUzCfJ'; // Replace with your actual client ID
+const CLIENT_ID = ''; // Replace with your actual client ID
 const REDIRECT_URI = 'http://localhost:3000/callback';
 
 // Event listener for DOMContentLoaded

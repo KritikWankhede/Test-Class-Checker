@@ -17,8 +17,8 @@
             body: new URLSearchParams({
                 'grant_type': 'authorization_code',
                 'code': authorizationCode,
-                'client_id': '3MVG9WVXk15qiz1JMmAGf9pWm1lyxU9qqQZA_TCIFgOJo54U04nH_rns62RRzRkAiKlkp5Z8xKUUwOwpUzCfJ',
-                'client_secret': 'FA5FAECE5468E31776A48F5E66D4B602DDC7577113C63F29174B1ABC8C5889BE',
+                'client_id': 'client_id', // Replace with your actual client ID
+                'client_secret': 'client_secret', // Replace with your actual client secret
                 'redirect_uri': 'http://localhost:3000/callback'
             })
         });
