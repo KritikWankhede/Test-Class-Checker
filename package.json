@@ -1,0 +1,15 @@
+{
+  "name": "my-salesforce-app",
+  "version": "1.0.0",
+  "description": "A simple app to connect to Salesforce using OAuth 2.0",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "author": "Kwank",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  }
+}
